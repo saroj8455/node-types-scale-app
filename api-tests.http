@@ -54,3 +54,24 @@ Content-Type: application/json
 ### Delete a User
 DELETE {{baseUrl}}/api/v1/users
 Content-Type: application/json
+
+
+##
+
+### Generate token 
+POST {{baseUrl}}/generate-token
+Content-Type: application/json
+
+{
+  "userId": "12345",
+  "username": "JohnDoe"
+}
+
+
+### Validate token
+POST {{baseUrl}}/validate-token
+Content-Type: application/json
+
+{
+  "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxMjM0NSIsInVzZXJuYW1lIjoiSm9obkRvZSIsImlhdCI6MTczNjgyMzE0MywiZXhwIjoxNzM2ODI2NzQzfQ.lWgrprQeA6kpwDVm-pQvGTnxkpFjZZutKr25pFGKH8E"
+}

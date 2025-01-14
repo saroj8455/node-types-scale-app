@@ -1,3 +1,5 @@
+## Nodejs v18.18.2
+
 - npm install typescript ts-node @types/node --save-dev
 - npm install express
 - npm install @types/express --save-dev
@@ -16,3 +18,9 @@
 - npm install @types/morgan --save-dev
 - npm install cookie-parser
 - npm install @types/cookie-parser --save-dev
+- npm install jsonwebtoken
+- npm install @types/jsonwebtoken --save-dev
+- npm install cors
+- npm install @types/cors --save-dev
+
+- NODE_ENV=development node app.js
